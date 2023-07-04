@@ -1,3 +1,8 @@
+'''
+No. 121
+Easy
+'''
+
 from typing import List
 
 class Solution(object):

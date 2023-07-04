@@ -1,3 +1,8 @@
+'''
+No. 1
+Easy
+'''
+
 from typing import List
 
 # Simple 
