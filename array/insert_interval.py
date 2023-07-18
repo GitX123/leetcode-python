@@ -13,7 +13,8 @@ class Solution(object):
             # non-overlapping 
             if newInterval[1] < intervals[i][0]: # left-hand 
                 newIntervals.append(newInterval)
-                return newIntervals + intervals[i:]
+                newIntervals.extend(intervals[i:])
+                return newIntervals
             elif newInterval[0] > intervals[i][1]: # right-hand
                 newIntervals.append(intervals[i])
             # overlapping
