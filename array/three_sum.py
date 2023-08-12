@@ -51,7 +51,6 @@ class Solution(object):
             if i > 0 and a == nums[i-1]:
                 continue
 
-
             # use left/right pointers to find b, c
             l, r = i + 1, len(nums) - 1
             while l < r:
