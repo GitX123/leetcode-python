@@ -7,9 +7,8 @@ from typing import List
 
 class Solution(object):
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        candidates.sort(reverse=True) # sort the array in descending order to speed up the search
+        candidates.sort(reverse=True) # sort the list in descending order to speed up the search
         result_arr = []
-        
 
         ''' 
         depth first search function looking for qualified combination
